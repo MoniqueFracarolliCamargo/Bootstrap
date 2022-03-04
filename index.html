@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, inicial-scale=1">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#">Sítio Fracaroli</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="collapse-navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#sobre-nos">Sobre Nós</a></li>
+                        <li><a href="#nosso-espaco">Nosso Espaço</a></li>
+                        <li><a href="#familia">Família</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container sitioFracaroli-bannerWrapper">
+            <div class="sitioFracaroli-banner">
+                <h1>Sítio Fracaroli</h1>
+                <p>Em Itapira-SP</p>
+                <button class="btn btn-primary btn-lg">Saiba mais</button>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="sobre-nos" class="container">
+        <h2>Sobre Nós</h2>
+        <div class="row">
+            <img class="img-responsive col-sm-6" src="fazenda.jpg" alt="">
+
+            <div class="panel-group col-sm-6" id="paineis-sobre">
+                <div class="panel panel-default">
+                    <div class="panel-heading" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">
+                        <h3 class="panel-title">Desde 1900</h3>
+                    </div>
+
+                    <div class="collapse in" id="primeiro-paragrafo">
+                        <div class="panel-body">
+                            Desde 1900 trazendo a alegria para toda a família
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">
+                        <h3 class="panel-title">Localizado no interior de São Paulo</h3>
+                    </div>
+
+                    <div id="segundo-paragrafo" class="collapse">
+                        <div class="panel-body">
+                            Está localizada ao lado do Circuito das Águas paulista e do pólo industrial emergente do Sul de Minas Gerais. Distante apenas 159 km da cidade de São Paulo, em um trajeto totalmente duplicado.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">
+                        <h3 class="panel-title">Muito lazer garantido</h3>
+                    </div>
+
+                    <div id="terceiro-paragrafo" class="collapse">
+                        <div class="panel-body">
+                            O espaço possui piscina de água natural (mina), tanques para pesca, passeios à cavalos, área para churrasco e muito mais...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h3>O lugar preferido da família no mundo.</h3>
+            <p>Aproveitam todos os finais de semana.</p>
+        </div>
+    </div>
+
+    <section id="nosso-espaco" class="container">
+        <h2>Nosso Espaço</h2>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="cavalo.jpg" alt="">
+                    <figcaption class="caption">
+                        <h3>Animais do Sítio</h3>
+                        <p>
+                            Os cavalos, são alguns dos muitos animais que o sítio possui.
+                        </p>
+                        </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="cafezal.jpg" alt="">
+                    <figcaption class="caption">
+                        <h3>Plantação de Café</h3>
+                        <p>
+                            o Sítio possui uma plantação de café, lindissímo.
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="trilha.jpg" alt="">
+                    <figcaption class="caption">
+                        <h3>Faça trilhas</h3>
+                        <p>
+                            Temos muitos lugares para você conhecer, fazendo diversas trilhas você ficará em contato com a natureza renovando suas energias.
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="tardezinha.jpg" alt="">
+                    <figcaption class="caption">
+                        <h3>Pôr do sol</h3>
+                        <p>
+                            O sítio possui uma vista explêndida para o pôr do sol.
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+            
+        </div>
+    </section>
+   
+    <section id="depoimentos">
+        <h2 class="container titulo-depoimentos">Depoimentos da Família</h2>
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!--Wrapper for slides-->
+            <div class="carousel-inner" role="lixtbox">
+                <figure class="item active">
+                    <img src="depo1.jpg" alt="Depoimento 1">
+                    <figcaption class="carousel-caption">
+                        <h3>Monique</h3>
+                        <p>Meu canto de paz!</p>
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="depo2.jpg" alt="Depoimento 2">
+                    <figcaption class="carousel-caption">
+                        <h3>Maria Alice</h3>
+                        <p>Momento de lazer, nada melhor do que o sítio</p>
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="depo3.jpg" alt="Depoimento 3">
+                    <figcaption class="carousel-caption">
+                        <h3>Kayque</h3>
+                        <p>Amo, passar o dia relaxando</p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+        </div>
+    </section>
+
+    <div class="container">
+		<div class="row">
+            <section id="contato" class="col-sm-6">
+                <h2>Contato</h2>
+                <h4>Entre em contato conosco</h4>
+
+                <form>
+                    <div class="form-group">
+                        <label for="contato-nome">Nome:</label>
+                        <input id="contato-nome" class="form-control" type="text" placeholder="Seu nome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contato-email">E-mail:</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">@</div>
+                        <input id="contato-email" class="form-control" type="email" placeholder="Seu e-mail">
+                        </div>
+                    </div>
+
+                    <div class="grupo-radio">
+                        <div class="radio">
+                            <label>
+                            <input type="radio" name="tipo-pessoa" value="fisica" checked>
+                                Pessoa física
+                            </label>
+                        </div>
+
+                        <div class="radio">
+                            <label>
+                            <input type="radio" name="tipo-pessoa" value="juridica">
+                                Pessoa jurídica
+                            </label>
+                        </div>
+                    </div>
+
+                    <select class="contato-select form-control" name="tipo-solicitacao">
+
+                        <option value="" disabled selected>Tipo de solicitação</option>
+
+                        <option value="casa">Visitação</option>
+                        <option value="apartamento">Diárias</option>
+                        <option value="mansao">Passeios</option>
+                    </select>
+
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <address>
+            <strong>Sítio Fracaroli</strong><br>
+            Rua Forões, 01, Barão<br>
+            Itapira-SP<br>
+            Tel: (19) 3843-1062
+        </address>
+        <address>
+            E-mail: monique_fracaroli@hotmail.com
+        </address>
+    </footer>
+
+    <script src="jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="navbar-animation-fix.js"></script>
+</body>
+</html>
